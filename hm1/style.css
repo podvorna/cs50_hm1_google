@@ -1,0 +1,136 @@
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+
+.main {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+header{
+   margin: 1%;
+        position: relative;
+        text-align: right;
+
+}
+header a:link{
+    background-color: transparent;
+    text-decoration: none;
+}
+#logo {
+    transform: translate(60%, -7%);
+    height: 92px;
+    width: 272px;
+    
+}
+
+
+#input{
+    width: 560px;
+    height: 39px;
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e4;
+    font-size: 14px;
+    padding-left: 40px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 15px;
+    outline: none;
+}
+
+.buttom_input{
+    background-color: #d3d3d357;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.main_img{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    transform: translate(62%, -150%);
+}
+
+#logo_small{
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(-1600%, -50%);
+
+    height: 24px;
+    width: 74px;
+}
+
+main{
+    color: #1a1a1a;
+    font-family: arial, serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+       
+}
+.items{
+    margin: 40px;
+}
+h1{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    font-family: arial, serif;
+    font-weight: 100;
+}
+.item-name_main{
+    color: rgb(24, 24, 24);
+    font-size: 18px;
+    text-align: left; /*Центрируем текст по горизонтали*/
+}
+
+.item-name{
+    float: left; /*Задаем обтекание*/
+    line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 15px;
+    margin-top: 20px;
+    width: 220px; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: left; /*Центрируем текст по горизонтали*/
+}
+
+.item-input{
+    float: left; /*Задаем обтекание*/
+    line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 15px;
+    margin-top: 20px;
+    width: 420px; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: left; /*Центрируем текст по горизонтали*/
+    
+}
+
+.item-input.input{
+    width: 200px;
+}

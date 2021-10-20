@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header >
+            <a href="javascript:window.location.reload();"><img  id='logo_small' src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google_logo"></a>
+            <a href="index.html" class="buttom_input">Пошук Google</a>
+            <a href="search_images.html" class="buttom_input">Пошук зображень</a>
+        </header>
+
+        <main>
+            <h1>Розширений пошук</h1>
+            <hr>
+            <form action="https://google.com/search">
+                <div class="items">
+                  <div class="item-name_main">
+                    <span>Знайти сторінки, що містять...</span></div>
+
+                  <div class="item-name">
+                    <span>усі ці слова:</span></div>
+                  <div class="item-input"><input type="text" name="as_q"></div>
+                  <div style="clear: both;"></div>
+
+                  <div class="item-name">
+                    <span>точне слово або фразу:</span></div>
+                  <div class="item-input"><input type="text" name="as_epq"></div>
+                  <div style="clear: both;"></div>
+
+                  <div class="item-name">
+                    <span>будь-яке з цих слів:</span> </div>
+                  <div class="item-input"><input type="text" name="as_oq"></div>
+                <div style="clear: both;"></div>
+
+
+                  <div class="item-name">
+                    <span>жодне з цих слів:</span></div>
+                  <div class="item-input"><input type="text" name="as_eq"></div>
+                  <div style="clear: both;"></div>
+
+                  <div class="item-name">
+                    <span>числа в діапазоні від:</span></div>
+                  <div class="item-input">
+                    <input type="text" name="as_nlo"><span> до </span><input type="text" name="as_nhi">
+                  </div>
+                  <div style="clear: both;"></div>
+                 
+                </div>
+                
+<!--           
+          
+                <div class="items">
+                  <div id="lil" class="item-name column-begen">
+                    <span>Додаткові налаштування…</span></div>
+                  <div class="item-input"></div>
+                  <div class="item-description column-end">
+                    <span>&nbsp;</span>
+                  </div>
+          
+                  <div class="item-name">
+                    <span>мова:</span></div>
+                  <div class="item-input">
+                    <select name="lr" size="1">
+                      <option value="" selected="">усі мови</option>
+                      <option value="lang_uk">українська</option>
+                      <option value="lang_en">англійська</option>
+                      <option value="lang_pl">польська</option>
+                      <option value="lang_de">німецька</option>
+                      <option value="lang_fr">французька</option>
+                      <option value="lang_ru">російська</option>
+                      <option value="lang_zh-CN">китайська</option>
+                    </select>
+                  </div>
+                  <div class="item-description">
+                    <span>Знаходьте сторінки вибраною мовою.</span>
+                  </div>
+          
+                  <div class="item-name">
+                    <span>регіон:</span>
+                  </div>
+                  <div class="item-input">
+                    <select name="cr" size="1">
+                      <option value="" selected="">будь-який регіон</option>
+                      <option value="countryUA">Україна</option>
+                      <option value="countryGB">Велика Британія</option>
+                      <option value="countryPL">Польщя</option>
+                      <option value="countryDE">Німеччина</option>
+                      <option value="countryFR">Франція</option>
+                      <option value="countryRU">Росія</option>
+                      <option value="countryCN">Китай</option>
+                    </select>
+                  </div>
+                  <div class="item-description">
+                    <span>Знаходьте сторінки, опубліковані в певному регіоні.</span>
+                  </div>
+          
+                  <div class="item-name">
+                    <span>останнє оновлення:</span></div>
+                  <div class="item-input">
+                    <select name="as_qdr" size="1">
+                      <option value="all" selected="">будь-коли</option>
+                      <option value="d">за останні 24 години</option>
+                      <option value="w">за минулий тиждень</option>
+                      <option value="m">за останній місяць</option>
+                      <option value="y">за останній рік</option>
+                    </select>
+                  </div>
+                  <div class="item-description">
+                    <span>Знаходьте сторінки, оновлені у вказаний період часу.</span>
+                  </div>
+          
+                  <div class="item-name">
+                    <span>сайт чи домен:</span></div>
+                  <div class="item-input"><input type="text" name="as_sitesearch"></div>
+                  <div class="item-description">
+                    <span>Шукайте один сайт (як-от wikipedia.org ) або обмежте результати доменом, як-от .edu, .org або
+                      .gov</span>
+                  </div>
+          
+                  <div class="item-name">
+                    <span>терміни, які відображаються:</span></div>
+                  <div class="item-input">
+                    <select name="as_occt" size="1">
+                      <option value="any" selected="">будь-де на сторінці</option>
+                      <option value="title">у заголовку сторінки</option>
+                      <option value="body">у тексті сторінки</option>
+                      <option value="url">в URL-адресі сторінки</option>
+                      <option value="links">у посиланнях на сторінку</option>
+                    </select>
+                  </div>
+                  <div class="item-description">
+                    <span>Шукайте терміни на сторінці загалом, у заголовку сторінки, веб-адресі чи посиланнях на потрібну вам
+                      сторінку.</span>
+                  </div>
+          
+                  <div class="item-name">
+                    <span><a href="https://support.google.com/websearch?p=adv_safesearch&amp;hl=uk">Безпечний пошук:</a></span></div>
+                  <div class="item-input">
+                    <select name="safe" size="1">
+                      <option value="images" selected="">Показати результати відвертого характеру</option>
+                      <option value="active">Сховати результати відвертого характеру</option>
+                    </select>
+                  </div>
+                  <div class="item-description">
+                    <span>Повідомте <a href="https://support.google.com/websearch?p=adv_safesearch&amp;hl=uk">Безпечний пошук:</a>, чи
+                      потрібно фільтрувати вміст сексуального характеру.</span>
+                  </div>
+          
+                  <div class="item-name">
+                    <span>тип файлу:</span></div>
+                  <div class="item-input">
+                    <select name="as_filetype" size="1">
+                      <option value="" selected="">будь-якого формату</option>
+                      <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                    </select>
+                  </div>
+                  <div class="item-description">
+                    <span>Знаходьте сторінки потрібного формату.</span>
+                  </div>
+                </div>
+           -->
+
+                  <div>
+                      <hr>
+                    <input class="buttom_input" value="Розширений пошук" type="submit">
+                  </div>
+                 
+
+              </form>
+        </main>
+        
+             
+    </body>
+</html>
+
+

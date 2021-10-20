@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google images</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <a href="index.html" class="buttom_input">Пошук Google</a>
+            <a href="advanced_search.html" class="buttom_input">Розширений пошук</a>
+        </header>
+
+        <div class="main">
+                <div >
+                    <a href="javascript:window.location.reload();"><img  id='logo' src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google_logo"></a>
+                    <div class="main_img">
+                        <span> Зображення</span>
+                    </div>
+                </div>
+
+            <div id="inputWrapper">
+                <form action="https://google.com/search">
+                    <input id="input" type="text" name="q" autocomplete="off" spellcheck="false" placeholder="Введіть пошуковий запит чи URL">
+                    <center>
+                        <div>
+                            <input type="hidden" name="tbm" value="isch">
+                            <input class=buttom_input type="submit" value="Шукати зображення"> 
+                        </div>
+                    </center>
+                </form>
+            </div>
+        </div>     
+        
+        
+    </body>
+</html>
+
+
